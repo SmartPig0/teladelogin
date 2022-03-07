@@ -6,7 +6,7 @@
 * {
     text-decoration: none;
     padding: 0px;
-    margin: 0;
+    margin: 0px;
     
 }
 
@@ -18,17 +18,19 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     width: 343px;
-    height: 588px;
-    border: solid 2px black;            
+    height: 588px;     
+    margin: 40px;
+    margin-top: 0px;
+             
 }
 
 .welcome {
-    display: block;
-    color:black;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    
+    color:black;    
     font-size: 8px;
+    margin-bottom: 20px
+    
+
 }
 
 .inputs{
