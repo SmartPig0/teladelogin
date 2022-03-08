@@ -141,12 +141,13 @@ footer {
     
 }
 
-@media only screen and (max-device-width: 348px) {
+@media only screen and (min-device-width: 343px) {
 
     body {
         width: 425px;
-        height: 588px;
+        height: 720px;
         padding: 10px;
+       
     }
 
     .inputs {
@@ -185,5 +186,9 @@ footer {
 
     .margin-line {
         margin-top: 50px;
+    }
+
+    .button {
+        background-color: green;
     }
 }
