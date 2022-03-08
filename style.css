@@ -141,7 +141,7 @@ footer {
     
 }
 
-@media (min-width: 425px) {
+@media (min-width: 344px) {
 
     body {
         width: 425px;
