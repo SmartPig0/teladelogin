@@ -144,14 +144,14 @@ footer {
 @media (min-width: 365px) {
 
     body {
-        width: 425px;
-        height: 680px;
+        width: 415px;
+        height: 620px;
         padding: 0px;
        
     }
 
     .inputs {
-        gap: 25px;
+        gap: 35px;
     }
 
     .remember {
@@ -164,7 +164,7 @@ footer {
 
     .signin-google > button {
         gap: 15px;
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .creat-account {
@@ -176,7 +176,7 @@ footer {
     }
 
     .rodape {
-        gap: 100px;
+        gap: 50px;
     }
 
     footer {
