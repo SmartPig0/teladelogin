@@ -183,15 +183,16 @@ footer {
         margin-top: 50px;
     }
 
-    button {
-        background-color: green;
-    }
-
+  
     .g-logo {
         margin: 20px;
     }
 
     .sem-cadastro {
         margin-right: 30px;
+    }
+
+    .ff-applogo {
+        margin-left: 20px;
     }
 }
