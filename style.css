@@ -141,12 +141,12 @@ footer {
     
 }
 
-@media (min-width: 344px) {
+@media (min-width: 343px) {
 
     body {
         width: 425px;
-        height: 720px;
-        padding: 10px;
+        height: 620px;
+        padding: 0px;
        
     }
 
@@ -188,7 +188,7 @@ footer {
         margin-top: 50px;
     }
 
-    .button {
+    button {
         background-color: green;
     }
 }
