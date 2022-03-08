@@ -26,7 +26,7 @@ body {
 
 .welcome {
     
-    color:black;    
+    color:#000;    
     font-size: 8px;
     margin-bottom: 20px
     
@@ -139,4 +139,51 @@ footer {
 .googlelogo {
     display: flex;
     
+}
+
+@media only screen and (max-device-width: 425px) {
+
+    body {
+        width: 425px;
+        height: 588px;
+        padding: 10px;
+    }
+
+    .inputs {
+        gap: 25px;
+    }
+
+    .remember {
+        margin-bottom: 25px;
+    }
+    
+    .margin-line {
+        margin-top: 50px;
+    }
+
+    .signin-google > button {
+        gap: 15px;
+        margin-top: 50px;
+    }
+
+    .creat-account {
+        padding: 20px;
+    }
+
+    .logo {
+        gap: 40px;
+    }
+
+    .rodape {
+        gap: 100px;
+    }
+
+    footer {
+        gap: 30px;   
+        margin-top: 50px;     
+    }
+
+    .margin-line {
+        margin-top: 50px;
+    }
 }
