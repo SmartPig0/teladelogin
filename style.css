@@ -167,7 +167,7 @@ footer {
     }
 
     .signin-google > button {
-        gap: 15px;
+        
         margin-top: 60px;
     }
 
@@ -178,21 +178,20 @@ footer {
     .logo {
         margin-bottom: 20px;
     }
-
-    .rodape {
-        margin: 20px;
-    }
-
-    footer {
-         
-        margin-top: 50px;     
-    }
-    
+        
     .margin-line {
         margin-top: 50px;
     }
 
     button {
         background-color: green;
+    }
+
+    .g-logo {
+        margin: 20px;
+    }
+
+    .sem-cadastro {
+        margin-right: 30px;
     }
 }
