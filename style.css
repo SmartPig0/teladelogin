@@ -141,7 +141,7 @@ footer {
     
 }
 
-@media only screen and (min-device-width: 425px) {
+@media only screen and (min-device-width: 343px) {
 
     body {
         width: 425px;
