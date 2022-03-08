@@ -144,10 +144,14 @@ footer {
 @media (min-width: 365px) {
 
     body {
-        width: 350px;
+        width: 370px;
         height: 720px;
         padding: 0px;
        
+    }
+
+    .inputs {
+        gap: 0px;
     }
 
     .input1 {
@@ -180,7 +184,7 @@ footer {
     }
 
     footer {
-        gap: 30px;   
+        margin: 30px;   
         margin-top: 50px;     
     }
 
@@ -190,5 +194,25 @@ footer {
 
     button {
         background-color: green;
+    }
+}
+
+@media (min-width: 415px) {
+
+    .inputs {
+        gap: 0px;
+    }
+
+    .input1 {
+        margin-bottom: 20px;
+    }
+
+    button {
+        background-color: red;
+    }
+
+    footer {
+        margin: 30px;   
+        margin-top: 50px;     
     }
 }
