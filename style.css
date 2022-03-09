@@ -53,10 +53,11 @@ input {
 
 .remember {
     display: flex;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: space-between;
+    margin: 5px;
     font-size: 12px;
     margin-bottom: 10px;
+    
 }
 
 .forgotpassword {
@@ -74,6 +75,7 @@ button {
     font-size: 15px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .signin-google > button {
@@ -86,6 +88,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
 .creat-account {
@@ -138,6 +141,36 @@ footer {
 
 .googlelogo {
     display: flex;
+    
+}
+
+.btn-animation {
+    box-sizing: border-box;
+    width: 35px;
+    border: solid 0.3px grey;
+    border-radius: 20px;
+    background: grey;   
+    height: 20px;
+    cursor: pointer;
+}
+
+.rememberme {
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    border: solid 0.3px grey;
+    border-radius: 100%;
+    background: #fff;       
+}
+
+.btn-animation.activated {
+    background: #007AFF;
+    border: solid 0.3px #007AFF;
+}
+
+.btn-animation.activated
+.rememberme {
+    margin-left: 15px;
     
 }
 
@@ -195,4 +228,6 @@ footer {
     .ff-applogo {
         margin-left: 20px;
     }
+
+    
 }
