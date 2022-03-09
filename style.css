@@ -52,9 +52,10 @@ input {
 }
 
 .remember {
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
+    display: grid;
+    grid-template-columns: 40px 200px 100px;
+    align-items: center;
+    margin-top: 5px;
     font-size: 12px;
     margin-bottom: 10px;
     
@@ -86,10 +87,10 @@ button {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
+    align-items: center;    
     cursor: pointer;
 }
+
 
 .creat-account {
     display: flex;
@@ -99,7 +100,7 @@ button {
 }
 
 .logo {
-    
+    cursor: pointer;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 160px;
@@ -109,7 +110,7 @@ button {
 
 .sem-cadastro {
     font-size: 12px;
-          
+    cursor: pointer;      
 }
 
 .ff-applogo {
@@ -139,11 +140,6 @@ footer {
     margin-top: 30px;
 }
 
-.googlelogo {
-    display: flex;
-    
-}
-
 .btn-animation {
     box-sizing: border-box;
     width: 35px;
@@ -152,6 +148,7 @@ footer {
     background: grey;   
     height: 20px;
     cursor: pointer;
+    
 }
 
 .rememberme {
@@ -166,12 +163,18 @@ footer {
 .btn-animation.activated {
     background: #007AFF;
     border: solid 0.3px #007AFF;
+    transition: 0.3s;
 }
 
 .btn-animation.activated
 .rememberme {
     margin-left: 15px;
+    transition: 0.3s;
     
+}
+
+.forgotpassword {
+    cursor: pointer;
 }
 
 @media (min-width: 365px) {
